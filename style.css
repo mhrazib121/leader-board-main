@@ -72,7 +72,7 @@ header{
 }
 hr{
     border: 1px solid #D1D1D1 ;
-    width: 807px;
+    margin: 30px;
 }
 
  /* **** Blog style **** */
@@ -176,9 +176,5 @@ hr{
    .players, .blogs, .courses{
        
         grid-template-columns: repeat(2, 1fr);
-    }
-    .player, .blog{
-        flex-direction: column;
-        justify-content: center;
     }
 }
