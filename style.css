@@ -157,6 +157,9 @@ hr{
         width: 100%;
         padding: 0;
     }
+    .section-tittle{
+        text-align: center;
+    }
      .navbar{
          width: 100%;
          flex-direction: column;
@@ -179,10 +182,29 @@ hr{
  /* For tablet screen  */
  @media screen and (min-width: 689px) and (max-width:992px) {
      
-    .container{ width: 100%;}
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    .section-tittle{
+        text-align: center;
+    }
+     .navbar{
+         width: 100%;
+         flex-direction: column;
+         justify-content: space-between;
+         margin: 0;
+         padding: 0;
+     }
+     .navbar ul {
+         padding:0 20px;
+     }
    
    .players, .blogs, .courses{
        
         grid-template-columns: repeat(2, 1fr);
+    }
+    .players{
+       padding-left: 60px;
     }
 }
