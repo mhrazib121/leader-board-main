@@ -20,7 +20,7 @@ main{
 
 /* header style  */
 header{
-    background-color: #562EFF;
+    background-color: red;
 }
 .navbar{
     width: 70%;
@@ -72,7 +72,7 @@ header{
 }
 hr{
     border: 1px solid #D1D1D1 ;
-    margin: 30px;
+    margin:30px;
 }
 
  /* **** Blog style **** */
